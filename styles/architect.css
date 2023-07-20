@@ -3,5 +3,32 @@
 /*Global style*/
 body {
     font-family: 'Work Sans', sans-serif;
-    margin: 0px;
+    /* margin: 0px; */
+}
+
+/* header styles*/
+.header{
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 5px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.banner-content img{
+    width: 100%;
 }
