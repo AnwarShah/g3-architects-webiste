@@ -75,7 +75,7 @@ nav li a{
 /* main section */
 main{
     max-width: 1440px;
-    margin: 70px auto;
+    margin: 70px 130px;
 }
 
 .teams-container{
@@ -115,6 +115,7 @@ main{
 .facts-card-container{
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .facts-card-container .card{
