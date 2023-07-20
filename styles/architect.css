@@ -3,7 +3,7 @@
 /*Global style*/
 body {
     font-family: 'Work Sans', sans-serif;
-    /* margin: 0px; */
+    margin: 0px;
 }
 
 .btn-primary {
@@ -15,6 +15,11 @@ body {
     padding: 20px 25px;
     cursor: pointer;
     border: 0;
+}
+
+.text-lightgray{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
 }
 
 /* header styles*/
@@ -62,12 +67,6 @@ nav li a{
     font-weight: 700;
 }
 
-.banner-description{
-    color: var(--dark-03, #727272);
-    font-size: 1rem;
-    font-weight: 400;
-}
-
 .banner img{
     margin-top: 20px;
     width: 100%;
@@ -76,7 +75,7 @@ nav li a{
 /* main section */
 main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 .teams-container{
@@ -110,11 +109,6 @@ main{
 .teams-title .text-features{
     color: #FF900E;
     font-weight: 700;
-}
-
-.teams-description{
-    color: var(--dark-03, #727272);
-    font-size: 1rem;
 }
 
 /* responsive media queries */
