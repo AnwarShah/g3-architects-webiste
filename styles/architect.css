@@ -122,8 +122,11 @@ main{
     .header{
         padding: 30px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -131,7 +134,7 @@ main{
     .header{
         padding: 30px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
 }
