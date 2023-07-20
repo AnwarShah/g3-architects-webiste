@@ -6,9 +6,21 @@ body {
     /* margin: 0px; */
 }
 
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: #FF900E;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
+
 /* header styles*/
 .header{
     background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
 }
 
 nav{
@@ -17,18 +29,47 @@ nav{
     align-items: center;
 }
 
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
 nav > ul{
     display: flex;
     list-style: none;
 }
 nav li {
-    margin-right: 5px;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
-nav a{
+nav li a{
     text-decoration: none;
+    color: #424242;
 }
 
-.banner-content img{
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.banner-title{
+    color: var(--dark-01, #131313);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: var(--dark-03, #727272);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner img{
+    margin-top: 20px;
     width: 100%;
 }
+
