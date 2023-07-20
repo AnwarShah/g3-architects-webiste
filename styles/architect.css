@@ -126,6 +126,26 @@ main{
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);   
 }
 
+.ten-years-badge{
+    text-align: center;
+    border-radius: 8px;
+    color: #FFF;
+    background: #FF900E;
+    padding: 40px;
+    width: 342px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.ten-years-badge {
+    margin-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 .feature-content .section-title{
     padding-left: 20px;
     border-left: 5px solid orangered;
